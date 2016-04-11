@@ -15,7 +15,7 @@ var map = new (can.Map.extend({
             //    return JSON.stringify(value);
             //},
             get: function (value) {
-                return JSON.parse(this.value);
+                return JSON.parse(value);
             }
         }
     }
